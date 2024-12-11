@@ -1,0 +1,2 @@
+# Advantage-Actor-Critic-A2C-Algorithm-for-CartPole-Artificial-Intelligence-course
+This project demonstrates the implementation of the Advantage Actor-Critic (A2C) algorithm to solve the CartPole environment from OpenAI's Gym library. A2C is a reinforcement learning (RL) technique that uses two neural networks—an actor and a critic—to learn optimal policies and value functions for decision-making tasks.
