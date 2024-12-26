@@ -24,5 +24,12 @@ The goal of the CartPole task is to balance a pole on a moving cart by applying 
 
 ## Results
 
-The A2C implementation successfully trains an agent capable of balancing the CartPole for extended periods. Training performance is visualized through reward curves, and the final model is tested for qualitative evaluation.
+Here are two GIFs illustrating the difference between an agent acting randomly and a trained agent:
 
+### **Random Agent**
+The agent acts randomly without any learned policy, resulting in the pole falling quickly:
+![Random Agent](cartpole.gif)
+
+### **Trained Agent**
+The trained A2C agent successfully balances the pole for extended periods:
+![Trained Agent](test.gif)
