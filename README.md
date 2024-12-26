@@ -3,16 +3,6 @@ This project demonstrates the implementation of the Advantage Actor-Critic (A2C)
 
 The goal of the CartPole task is to balance a pole on a moving cart by applying forces to the cart. The agent is trained to maximize cumulative rewards by keeping the pole upright as long as possible.
 
-## Features
-
-- **Environment**: OpenAI Gym’s CartPole-v1.
-- **Algorithm**: Advantage Actor-Critic (A2C).
-- **Actor-Critic Framework**:
-  - The actor predicts action probabilities.
-  - The critic estimates the state value.
-- **Advantage Calculation**: Utilizes the difference between observed returns and estimated state values to guide policy updates.
-- **Visualization**: Includes training progress plots and performance demonstrations.
-
 ## Code Structure
 
 - **Actor Network**: Outputs action probabilities based on the current state.
